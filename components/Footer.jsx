@@ -39,7 +39,7 @@ const Footer = () => (
             INERMECH
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-          Copyright © 2022_Inermech - All Rights Reserved.
+            Copyright © 2022_Inermech - All Rights Reserved.
           </p>
 
           <div className="flex gap-4">

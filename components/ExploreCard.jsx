@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-import styles from '../styles';
+
 import { fadeIn } from '../utils/motion';
 
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
@@ -33,5 +33,4 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     )}
   </motion.div>
 );
-
 export default ExploreCard;
