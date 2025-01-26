@@ -50,21 +50,21 @@ export const startingFeatures1 = [
   ]; 
 
 export const startingFeatures2 = [
-  'Insights About INERMECH',
+  'our Manufacturers',
   ];
 
   export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Our Mission',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'We deliver high-quality, safety, cost-effective, and reliable asset management solutions and technical support that are tailored to the demands and satisfaction of our customers, utilizing world-class best practices.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Our Vision',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      "Our Vision is to be known for providing value to our client's operations as a total solution provider in the oil & gas and marine industries and services.",
   },
 ];
 
