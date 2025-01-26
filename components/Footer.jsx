@@ -36,10 +36,10 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAWORLD
+            INERMECH
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2022 - 2023 Metaworld. All rights reserved.
+          Copyright © 2022_Inermech - All Rights Reserved.
           </p>
 
           <div className="flex gap-4">

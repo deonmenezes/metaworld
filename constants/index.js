@@ -1,38 +1,59 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/oil4.png',
+    title: 'Heavy Equipment Rental',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/oil2.png',
+    title: 'Asset Management and Cosulting',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/oil8.png',
+    title: 'Plant Maintenance & Turnaround',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/oil11.png',
+    title: 'Nitrogen Services',
+  },
+ 
+];
+export const exploreWorlds1 = [
+  {
+    id: 'world-1',
+    imgUrl: '/oil15.png',
+    title: 'Technical Services',
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    id: 'world-2',
+    imgUrl: '/oil13.png',
+    title: 'Blasting and Painting Services',
   },
+  {
+    id: 'world-3',
+    imgUrl: '/oil14.png',
+    title: 'Electrical and Automation Services',
+  },
+  
+ 
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
-];
+  'Explore Our Oil & Gas Services',
+  ];
 
-export const newFeatures = [
+export const startingFeatures1 = [
+  'Explore Our Marine Services',
+  ]; 
+
+export const startingFeatures2 = [
+  'Insights About INERMECH',
+  ];
+
+  export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
     title: 'A new world',

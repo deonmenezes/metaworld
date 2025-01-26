@@ -23,7 +23,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>inermech</h1>
-          <img src="logo.png" alt="Logo" className="w-[102px] h-[109px] flex justify-center items-center flex-col relative z-10 mt-2" />
+          <img src="logo.png" alt="Logo" className=" mt-[2px] w-[36px] h-[36px] sm:w-[102px] sm:h-[109px] flex justify-center items-center flex-col relative z-10  sm:mt-2 transition-transform duration-300 hover:scale-110 bg-gradient-to-r from-gray-100 to-white rounded-xl sm:rounded-3xl shadow-lg border-purple-200 " />
           
           
         </motion.div>
@@ -43,9 +43,9 @@ const Hero = () => (
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
-              src="/stamp.png"
+              src="/stamp.svg"
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="sm:w-[100px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />
           </div>
         </a>

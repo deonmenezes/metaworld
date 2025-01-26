@@ -15,11 +15,11 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title=" Our Manufacturers" textStyles="text-center" />
       <TitleText
         title={(
           <>
-            Track friends around you and invite them to play together in the same world
+            Manfacturers We have Partnered With
           </>
         )}
         textStyles="text-center"
@@ -35,17 +35,50 @@ const World = () => (
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="people-01.png" alt="people" className="w-full h-full" />
+        <div className="absolute top-1/3 left-[90%] w-[150px] h-[70px] p-[6px] bg-[#5d6680]">
+          <img src="man1.png" alt="people" className="w-full h-full" />
         </div>
 
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="people-02.png" alt="people" className="w-full h-full" />
+        <div className="absolute top-1/3 left-[70%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man2.png" alt="people" className="w-full h-full" />
         </div>
 
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="people-03.png" alt="people" className="w-full h-full" />
+        <div className="absolute top-1/3 left-[55%] w-[90px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man3.png" alt="people" className="w-full h-full" />
         </div>
+        <div className="absolute top-1/3 left-[35%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man4.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-1/3 left-[10%] w-[220px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man5.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-1/3 left-[-5%] w-[130px] h-[70px] p-[6px] bg-[#5d6680]">
+          <img src="man6.png" alt="people" className="w-full h-full" />
+        </div>  
+        <div className="absolute top-2/4 left-[90%] w-[150px] h-[70px] p-[6px] bg-[#5d6680]">
+          <img src="man12.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-2/4 left-[70%] w-[180px] h-[70px] p-[6px] bg-[#5d6680]">
+          <img src="man11.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-2/4 left-[55%] w-[90px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man10.png" alt="people" className="w-full h-full" />
+        </div>
+        <div className="absolute top-2/4 left-[35%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man9.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-2/4 left-[10%] w-[220px] h-[70px] p-[6px]  bg-[#5d6680]">
+          <img src="man7.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-2/4 left-[-5%] w-[130px] h-[70px] p-[6px] bg-[#5d6680]">
+          <img src="man8.png" alt="people" className="w-full h-full" />
+        </div>  
       </motion.div>
     </motion.div>
   </section>
