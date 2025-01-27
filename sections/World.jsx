@@ -34,6 +34,7 @@ const World = () => (
        <div
   className="relative w-screen h-screen bg-no-repeat bg-center bg-cover lg:bg-contain"
   style={{ backgroundImage: "url('map.png')" }}
+  id="man"
 >
   {/* First Row */}
   <div className="flex flex-wrap justify-center items-center gap-4">

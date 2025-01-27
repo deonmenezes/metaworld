@@ -56,7 +56,7 @@ const GetStarted = () => (
           ))}
           </div>
           </a>
-        <a href="#marine">
+        <a href="#man">
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures2.map((feature, index) => (
             <StartSteps
