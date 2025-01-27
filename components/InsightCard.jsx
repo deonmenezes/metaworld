@@ -23,8 +23,6 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
           {subtitle}
         </p>
       </div>
-
-      
     </div>
   </motion.div>
 );
