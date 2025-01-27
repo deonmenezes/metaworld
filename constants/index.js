@@ -1,17 +1,17 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/oil4.png',
+    imgUrl: '/oil17.png',
     title: 'Heavy Equipment Rental',
   },
   {
     id: 'world-2',
-    imgUrl: '/oil2.png',
+    imgUrl: '/oil16.png',
     title: 'Asset Management and Cosulting',
   },
   {
     id: 'world-3',
-    imgUrl: '/oil8.png',
+    imgUrl: '/oil18.png',
     title: 'Plant Maintenance & Turnaround',
   },
   {
@@ -70,22 +70,22 @@ export const startingFeatures2 = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/oil8.png',
+    title: 'Oil and Gas Services',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Inermech is a best in class provider of oil and gas plant shutdown and turnaround services.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/oil2.png',
+    title: 'Marine Services',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Inermech can manage al aspects of marine services, We have the devotion and personnel to build and provide customized services',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/oil4.png',
+    title: 'Products and Rentals',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'WE ARE THE AGENTS AND SUPPLIER OF SPECIALIZED PRODUCTS',
   },
 ];
 

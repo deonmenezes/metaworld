@@ -6,18 +6,19 @@ const Page = () => (
     <Navbar />
     <Hero />
     <div className="relative">
-      <About />
-      <div className="relative">
-        <GetStarted />
-        <div className="gradient-03 z-0" />
+       <div className="relative">
         <Explore />
+      <div/>  
+        <GetStarted />
+        <div className="gradient-02 z-0" />
       </div>
-      <div className="gradient-04 z-0" />
+      <div className="" />
       <WhatsNew />
     </div>
     <World />
     <div className="relative">
       <Insights />
+      <About />
       <div className="gradient-04 z-0" />
       <Feedback />
     </div>
@@ -26,3 +27,4 @@ const Page = () => (
 );
 
 export default Page;
+   
