@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link'
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
@@ -13,7 +13,7 @@ const Navbar = () => (
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-8`}>
       <img
         src="/search.svg"
         alt="search"
@@ -27,24 +27,16 @@ const Navbar = () => (
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       />
-    <div className="flex gap-2 text-white">
-      <Link href="/products">
-        Products
-      </Link>
-    </div>  
-    <div className="flex gap-2 text-white">
-      <Link href="/products">
-        Services
-       </Link>
-    </div>   
-    <div className="flex gap-2 text-white">
-      <Link href="/about">    
-       About Us
-      </Link>
-    </div> 
+
+      {/* Navigation Links */}
+      <div className="flex gap-6 text-white">
+        <Link href="/products">Products</Link>
+        <Link href="/services">Services</Link>
+        <Link href="/about">About Us</Link>
+      </div>
     </div>
-  </motion.nav>   
+  </motion.nav>
 );
 
-export default Navbar;    
+export default Navbar;
       
