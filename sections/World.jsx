@@ -29,56 +29,56 @@ const World = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img
-          src="/map.png"
-          alt="map"
-          className="w-full h-full object-cover"
-        />
+       
 
-        <div className="absolute top-1/3 left-[90%] w-[150px] h-[70px] p-[6px] bg-[#5d6680]">
-          <img src="man1.png" alt="people" className="w-full h-full" />
-        </div>
+       <div
+  className="relative w-screen h-screen bg-no-repeat bg-center bg-cover lg:bg-contain"
+  style={{ backgroundImage: "url('map.png')" }}
+>
+  {/* First Row */}
+  <div className="flex flex-wrap justify-center items-center gap-4">
+    <div className="w-[150px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man1.png" alt="man1" className="w-full h-full" />
+    </div>
+    <div className="w-[180px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man2.png" alt="man2" className="w-full h-full" />
+    </div>
+    <div className="w-[90px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man3.png" alt="man3" className="w-full h-full" />
+    </div>
+    <div className="w-[180px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man4.png" alt="man4" className="w-full h-full" />
+    </div>
+    <div className="w-[220px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man5.png" alt="man5" className="w-full h-full" />
+    </div>
+    <div className="w-[130px] h-[70px] p-[6px] bg-[#5d6680]">
+      <img src="man6.png" alt="man6" className="w-full h-full" />
+    </div>
+  </div>
 
-        <div className="absolute top-1/3 left-[70%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man2.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-1/3 left-[55%] w-[90px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man3.png" alt="people" className="w-full h-full" />
-        </div>
-        <div className="absolute top-1/3 left-[35%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man4.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-1/3 left-[10%] w-[220px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man5.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-1/3 left-[-5%] w-[130px] h-[70px] p-[6px] bg-[#5d6680]">
-          <img src="man6.png" alt="people" className="w-full h-full" />
-        </div>  
-        <div className="absolute top-2/4 left-[90%] w-[150px] h-[70px] p-[6px] bg-[#5d6680]">
-          <img src="man12.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-2/4 left-[70%] w-[180px] h-[70px] p-[6px] bg-[#5d6680]">
-          <img src="man11.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-2/4 left-[55%] w-[90px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man10.png" alt="people" className="w-full h-full" />
-        </div>
-        <div className="absolute top-2/4 left-[35%] w-[180px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man9.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-2/4 left-[10%] w-[220px] h-[70px] p-[6px]  bg-[#5d6680]">
-          <img src="man7.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-2/4 left-[-5%] w-[130px] h-[70px] p-[6px] bg-[#5d6680]">
-          <img src="man8.png" alt="people" className="w-full h-full" />
-        </div>  
+  {/* Second Row */}
+  <div className="flex flex-wrap justify-center items-center gap-4">
+    <div className="w-[150px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man12.png" alt="man12" className="w-full h-full" />
+    </div>
+    <div className="w-[180px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man11.png" alt="man11" className="w-full h-full" />
+    </div>
+    <div className="w-[90px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man10.png" alt="man10" className="w-full h-full" />
+    </div>
+    <div className="w-[180px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man9.png" alt="man9" className="w-full h-full" />
+    </div>
+    <div className="w-[220px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man7.png" alt="man7" className="w-full h-full" />
+    </div>
+    <div className="w-[130px] h-[70px] p-[6px] bg-[#5d6680] mt-5">
+      <img src="man8.png" alt="man8" className="w-full h-full" />
+    </div>
+  </div>
+</div>
       </motion.div>
     </motion.div>
   </section>
