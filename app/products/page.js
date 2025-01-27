@@ -1,7 +1,8 @@
-export default function ProductsPage() {
-  return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold">Welcome to the Products Page</h1>
-    </div>
-  )
-}
+const ProductsPage = () => (
+  <main>
+    <h1>About Us</h1>
+    <p>Welcome to our proc page!</p>
+  </main>
+);
+
+export default ProductsPage;

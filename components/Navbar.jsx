@@ -33,7 +33,7 @@ const Navbar = () => (
       </Link>
     </div>  
     <div className="flex gap-2 text-white">
-      <Link href="/services">
+      <Link href="/products">
         Services
        </Link>
     </div>   

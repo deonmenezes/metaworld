@@ -6,13 +6,13 @@ const Page = () => (
     <Navbar />
     <Hero />
     <div className="relative">
-       <div className="relative">
-        <Explore />
-      <div/>  
-        <GetStarted />
-        <div className="gradient-02 z-0" />
+      <div className="relative">
+         <Explore />
+         <div/>  
+         <GetStarted />
+         <div className="gradient-02 z-0"/>
       </div>
-      <div className="" />
+      <div/>
       <WhatsNew />
     </div>
     <World />
