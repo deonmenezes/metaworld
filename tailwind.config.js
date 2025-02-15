@@ -5,10 +5,14 @@ module.exports = {
     './components/**/*.{html,js,jsx}',
     './sections/**/*.{html,js,jsx}',
     './styles/**/*.{js,jsx}',
-  ],
+    
+    ],
   mode: 'jit',
   theme: {
     extend: {
+      textShadow: {
+        blueGlow: "0 0 10px rgba(0, 140, 255, 0.8), 0 0 20px rgba(0, 140, 255, 0.6)",
+      },
       colors: {
         'primary-black': '#1A232E',
         'secondary-white': '#c7c7c7',

@@ -1,3 +1,4 @@
+import "../styles/globals.css";
 export const exploreWorlds = [
   {
     id: 'world-1',
@@ -89,6 +90,63 @@ export const insights = [
   },
 ];
 
+export const insights2 = [
+  {
+    imgUrl: '/oil8.png',
+    title: 'Lavda Lasoon',
+    subtitle:
+        'Inermech is a best in class provider of oil and gas plant shutdown and turnaround services.',
+  },
+  {
+    imgUrl: '/oil2.png',
+    title: 'Marine Services',
+    subtitle:
+        'Inermech can manage al aspects of marine services, We have the devotion and personnel to build and provide customized services',
+  },
+  {
+    imgUrl: '/oil4.png',
+    title: 'Products and Rentals',
+    subtitle:
+        'WE ARE THE AGENTS AND SUPPLIER OF SPECIALIZED PRODUCTS',
+  },
+  {
+    imgUrl: '/oil8.png',
+    title: 'Lavda Lasoon',
+    subtitle:
+        'Inermech is a best in class provider of oil and gas plant shutdown and turnaround services.',
+  },
+  {
+    imgUrl: '/oil2.png',
+    title: 'Marine Services',
+    subtitle:
+        'Inermech can manage al aspects of marine services, We have the devotion and personnel to build and provide customized services',
+  },
+  {
+    imgUrl: '/oil4.png',
+    title: 'Products and Rentals',
+    subtitle:
+        'WE ARE THE AGENTS AND SUPPLIER OF SPECIALIZED PRODUCTS',
+  },
+  {
+    imgUrl: '/oil8.png',
+    title: 'Lavda Lasoon',
+    subtitle:
+        'Inermech is a best in class provider of oil and gas plant shutdown and turnaround services.',
+  },
+  {
+    imgUrl: '/oil2.png',
+    title: 'Marine Services',
+    subtitle:
+        'Inermech can manage al aspects of marine services, We have the devotion and personnel to build and provide customized services',
+  },
+  {
+    imgUrl: '/oil4.png',
+    title: 'Products and Rentals',
+    subtitle:
+        'WE ARE THE AGENTS AND SUPPLIERS OF SPECIALIZED PRODUCTS',
+  },
+];
+
 export const socials = [
   {
     name: 'twitter',
@@ -107,3 +165,41 @@ export const socials = [
     url: '/facebook.svg',
   },
 ];
+
+export const ProductsGrid = [
+    {
+      category: "LIGHTING",
+      pp: "Hazardous area lighting and luminaires including linear, wellglass, floodlight and bulkhead lights certified by ATEX & IECEx for Zone 0, Zone 1/21 & Zone 2/22 lighting in potentially explosive gas and dust atmospheres. Site survey and design service available to enable the upgrade from fluorescent to high performance, long-life LED technology.",
+      items: [
+        { name: "Portable Lighting", image: "l1.png", description: "1)Rechargeable Handheld Spotlight.2)Handheld Flashlights.3)Headlamp.4)Penlight.5)Charging Stations/Docks" },
+        { name: "", image: "l2.png", description: "Temporary Floodlights." },
+        { name: "", image: "l3.png", description: "Fixed Light Fittings." },
+      ],
+    },
+    {
+      category: "Clothing",
+      items: [
+        { name: "T-Shirt", image: "e1.png", description: "Comfortable cotton t-shirt available in various sizes." },
+        { name: "Jeans", image: "e2.png", description: "Stylish and durable denim jeans." },
+        { name: "Jacket", image: "e3.png", description: "Warm and fashionable jacket for all seasons." },
+        { name: "Laptop", image: "oil.png", description: "High-performance laptop for work and gaming." },
+      ],
+    },
+    {
+      category: "Home Appliances",
+      items: [
+        { name: "Microwave", image: "/images/microwave.jpg", description: "Compact microwave with multiple power settings." },
+        { name: "Refrigerator", image: "/images/refrigerator.jpg", description: "Spacious refrigerator with energy-efficient cooling." },
+        { name: "Washing Machine", image: "/images/washing-machine.jpg", description: "Automatic washing machine with smart controls." },
+      ],
+    },
+    {
+      category: "Books",
+      items: [
+        { name: "Fiction", image: "/images/fiction.jpg", description: "Bestselling fiction books from popular authors." },
+        { name: "Non-Fiction", image: "/images/non-fiction.jpg", description: "Informative and engaging non-fiction books." },
+        { name: "Comics", image: "/images/comics.jpg", description: "Entertaining comics for all ages." },
+      ],
+    },
+  ];
+
