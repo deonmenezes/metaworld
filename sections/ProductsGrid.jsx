@@ -13,7 +13,7 @@ const ProductsGridcom = () => {
           {section.pp && (
   
   <div className="flex justify-center mb-10">
-  <p className="text-left text-white text-lg mb-4 w-1/2 break-words">
+  <p className="text-left text-white text-lg mb-4 sm:w-1/2 break-words">
     {section.pp}
   </p>
 </div>
