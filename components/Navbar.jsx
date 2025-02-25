@@ -38,7 +38,7 @@ const Navbar = () => {
               alt="menu"
               className="w-[24px] h-[24px] object-contain"
             />
-         </button>
+          </button>
         </div>
 
         {/* Desktop Navigation Links */}
