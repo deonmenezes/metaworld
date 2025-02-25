@@ -32,14 +32,14 @@ const Navbar = () => {
 
         {/* Right - Mobile Menu Toggle */}
         <div className="md:hidden">
-        <button type="button" onClick={() => setIsOpen(!isOpen)}>
-          <img
-            src="/menu.svg"
-            alt="menu"
-            className="w-[24px] h-[24px] object-contain"
-          />
+          <button type="button" onClick={() => setIsOpen(!isOpen)}>
+            <img
+              src="/menu.svg"
+              alt="menu"
+              className="w-[24px] h-[24px] object-contain"
+            />
         </button>
-        </div>
+      </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex gap-6 text-white">
