@@ -38,8 +38,8 @@ const Navbar = () => {
               alt="menu"
               className="w-[24px] h-[24px] object-contain"
             />
-        </button>
-      </div>
+         </button>
+        </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex gap-6 text-white">
