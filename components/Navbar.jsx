@@ -14,7 +14,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-4 relative`}
+      className={`${styles.xPaddings} py-4 relative z-50`} // Ensures navbar stays on top
     >
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-4 px-4 md:px-8`}>
@@ -43,16 +43,16 @@ const Navbar = () => {
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex gap-6 text-white">
-          <Link href="/products">Oil & Gas Products</Link>
-          <Link href="/products1">Marine Products</Link>
+          <Link href="/products" className="py-2">Oil & Gas Products</Link>
+          <Link href="/products1" className="py-2">Marine Products</Link>
         </div>
       </div>
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-[60px] left-0 w-full bg-black p-4 flex flex-col gap-4 text-white">
-          <Link href="/products">Oil & Gas Products</Link>
-          <Link href="/products1">Marine Products</Link>
+        <div className="md:hidden absolute top-[60px] left-0 w-full bg-black p-4 flex flex-col gap-4 text-white rounded-lg shadow-lg z-50">
+          <Link href="/products" className="py-2 block">Oil & Gas Products</Link>
+          <Link href="/products1" className="py-2 block">Marine Products</Link>
         </div>
       )}
     </motion.nav>
