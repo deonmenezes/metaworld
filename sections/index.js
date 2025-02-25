@@ -8,10 +8,12 @@ import Insights from './Insights';
 import Feedback from './Feedback';
 import Insights2 from './Insights2';
 import ProductsGridcom from './ProductsGrid';
+import ProductsGridcom1 from './ProductsGrid1';
 export {
   Hero,
   About,
   ProductsGridcom,
+  ProductsGridcom1,
   Explore,
   Insights2,
   GetStarted,

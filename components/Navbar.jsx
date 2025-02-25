@@ -30,7 +30,8 @@ const Navbar = () => (
 
       {/* Navigation Links */}
       <div className="flex gap-6 text-white">
-        <Link href="/products">Products</Link>
+        <Link href="/products">Oil&Gas Products</Link>
+        <Link href="/products1">Marine Products</Link>
         <Link href="/services">Services</Link>
         <Link href="/about">About Us</Link>
       </div>
