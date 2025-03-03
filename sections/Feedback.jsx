@@ -21,13 +21,9 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
-            Royster Menezes
+            Inermech's Message
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
-            Founder of Inermech
-          </p>
         </div>
-
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
           “We are privileged to be able to earn your business and will continue to do everything in our power to exceed your expectations. Whatever the future may bring, our underlying construct of serving our customers remains the same and unfettered.”
         </p>
